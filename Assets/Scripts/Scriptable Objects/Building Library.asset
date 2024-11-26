@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205ee6e685fdb404395baca9ad860fae, type: 3}
+  m_Name: Building Library
+  m_EditorClassIdentifier: 
+  buildObjects:
+  - name: Floor
+    type: 0
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 50
+    Icon: {fileID: 21300000, guid: f0dfd0845e3b92e49996e8647ca0120e, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 7097253901786785235, guid: d3a1ae97f8c6ec74e89d413a20ef66c5,
+      type: 3}
+  - name: Wall
+    type: 1
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 150
+    Icon: {fileID: 21300000, guid: 0670450f8fe57a745b83d18e1170ec92, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 5000897325546713502, guid: 58b2f1c701b8b954082afa6d4bc4af8a,
+      type: 3}
+  - name: Wall_Door
+    type: 1
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 100
+    Icon: {fileID: 21300000, guid: d2811138056e42d4ea62026940d0734c, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 6306128754738693825, guid: a30572b3a8ba95f4e91ecce612553fb9,
+      type: 3}
+  - name: Wall_Window
+    type: 1
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 250
+    Icon: {fileID: 21300000, guid: 516c8c5c6463eb942b3f65e729efeda0, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 3257650917467247840, guid: eb6f7c280b3066641bcf1b2f9b10f997,
+      type: 3}
+  - name: General_Shelf
+    type: 2
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 200
+    Icon: {fileID: 21300000, guid: dee56db50898d0e42918c4aa46f9bbf3, type: 3}
+    TypeIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+    prefab: {fileID: 6642355460988416286, guid: 29e3a2e2fb1f6584c8dc9cc7ac0bf206,
+      type: 3}
+  - name: Vegetable_Shelf
+    type: 2
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 300
+    Icon: {fileID: 21300000, guid: af8b8787b9c5fc7439a24255c00744b6, type: 3}
+    TypeIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+    prefab: {fileID: 6642355460988416286, guid: bd888a0292bfdca45a2d7d8b440959fa,
+      type: 3}
+  - name: Bread_Shelf
+    type: 2
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 400
+    Icon: {fileID: 21300000, guid: 25227cfa5303b014a872062e2c152aa3, type: 3}
+    TypeIcon: {fileID: 21300000, guid: feba3fe9449c2974d8851e465576ce13, type: 3}
+    prefab: {fileID: 6642355460988416286, guid: 8388c6b97bd46db4e87a834aa50d3e61,
+      type: 3}
+  - name: General_Freezer
+    type: 2
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 400
+    Icon: {fileID: 21300000, guid: 5f53fb1159553f24a88e40848fcb75f8, type: 3}
+    TypeIcon: {fileID: 21300000, guid: 3f1fddbaf160a034c92a166aa6a39d72, type: 3}
+    prefab: {fileID: 6642355460988416286, guid: 0046f121e348ebc45adfe233a0d937f7,
+      type: 3}
+  - name: Meat_Freezer
+    type: 2
+    IsLocked: 1
+    lockedPrice: 600
+    buildPrice: 500
+    Icon: {fileID: 21300000, guid: de8b0afb9dbce5a4889fa6378effb63f, type: 3}
+    TypeIcon: {fileID: 21300000, guid: 8e5764983cf80d449aa22bacbed9b36e, type: 3}
+    prefab: {fileID: 6642355460988416286, guid: 8cd408190aa9dc24cb0d309eadde9e15,
+      type: 3}
+  - name: VegFruit_Freezer
+    type: 2
+    IsLocked: 1
+    lockedPrice: 160
+    buildPrice: 600
+    Icon: {fileID: 21300000, guid: a5dc9879f97bd7241bbdc6de8999d6e4, type: 3}
+    TypeIcon: {fileID: 21300000, guid: 2348e068f635cc74d8a5b332efaafe24, type: 3}
+    prefab: {fileID: 6642355460988416286, guid: d93855926d777414ea612f8a87722ca5,
+      type: 3}
+  - name: Self_Checkout
+    type: 2
+    IsLocked: 1
+    lockedPrice: 1500
+    buildPrice: 2500
+    Icon: {fileID: 21300000, guid: 67f469f91fc52134d9e3500b1b092e32, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 4449907800974924921, guid: 88d2dba1d7a2f344b8e4d6fd62c0aa7b,
+      type: 3}
+  - name: Checkout
+    type: 2
+    IsLocked: 0
+    lockedPrice: 0
+    buildPrice: 750
+    Icon: {fileID: 21300000, guid: 6accc87ec67f82b48b6b862409e8d008, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 4449907800974924921, guid: fb1cde650bbe4244bb1573f8b7d3709e,
+      type: 3}
+  - name: wall_2
+    type: 1
+    IsLocked: 1
+    lockedPrice: 2000
+    buildPrice: 2000
+    Icon: {fileID: 21300000, guid: 2e69b8aa89c02524c8606050489a8d38, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 5000897325546713502, guid: 0f24976f10c770c45af37d74035209ee,
+      type: 3}
+  - name: wall_3
+    type: 1
+    IsLocked: 1
+    lockedPrice: 40
+    buildPrice: 250
+    Icon: {fileID: 21300000, guid: 3bfc9cfd79107b04595760d5a35ad953, type: 3}
+    TypeIcon: {fileID: 0}
+    prefab: {fileID: 5000897325546713502, guid: b33ccf1bf6212e14bb38db82dc338a55,
+      type: 3}

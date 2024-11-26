@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2da020c8237bcb4c84b864c5e17fcda, type: 3}
+  m_Name: Worker Library
+  m_EditorClassIdentifier: 
+  Workers:
+  - WorkerName: Michkaela
+    WorkerJob: Cashier
+    WorkerPrice: 150
+    prefab: {fileID: 425757346263770112, guid: bba05b83f2057554b95c35ad0406db13, type: 3}
+    WorkerIcon: {fileID: 21300000, guid: 42966e0c2adce52479d6c752bb469c04, type: 3}
+  - WorkerName: Marchk
+    WorkerJob: Stocker
+    WorkerPrice: 250
+    prefab: {fileID: 425757346263770112, guid: b648f0418bc11c84a8f5aaca8167dd85, type: 3}
+    WorkerIcon: {fileID: 21300000, guid: 4c568192b97468842bd545865f78fe5b, type: 3}
+  - WorkerName: name3
+    WorkerJob: Cleaner
+    WorkerPrice: 200
+    prefab: {fileID: 0}
+    WorkerIcon: {fileID: 21300000, guid: 89538140508a1744da6cae0c59dc36c2, type: 3}

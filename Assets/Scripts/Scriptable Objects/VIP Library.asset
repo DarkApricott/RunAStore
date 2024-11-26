@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28a8db094fe02942880bd743b8ee187, type: 3}
+  m_Name: VIP Library
+  m_EditorClassIdentifier: 
+  VIPs:
+  - VipImage: {fileID: 21300000, guid: 5a417779eaa6a7d419914bfff4b11dc1, type: 3}
+    VipName: Dondersteen
+    Title: Lego Island
+  - VipImage: {fileID: 21300000, guid: 0777cc728a96d5940afcaf91770387e3, type: 3}
+    VipName: 'Daphne '
+    Title: Run'A Store Artist
+  - VipImage: {fileID: 21300000, guid: 86a275f43dad87647823fd36c41a4ee3, type: 3}
+    VipName: Waltuh White
+    Title: Alchemist
+  - VipImage: {fileID: 21300000, guid: 66750522171f89549b6e8653914506ea, type: 3}
+    VipName: Rupaul
+    Title: Queen of Drag
+  - VipImage: {fileID: 21300000, guid: c358fc0bb88242e4bb7ef771e890679b, type: 3}
+    VipName: Andre Pronk
+    Title: King of the Laugh
+  - VipImage: {fileID: 21300000, guid: 3c7f7b73d6830454e930c2519589dc43, type: 3}
+    VipName: Nova
+    Title: Run'A Store Artist
+  - VipImage: {fileID: 21300000, guid: de7b2512317ebca4e8f6d431a8e38075, type: 3}
+    VipName: Sander
+    Title: Run'A Store Developer
+  - VipImage: {fileID: 21300000, guid: aad00464ec3eff344922ef7d22dc64ef, type: 3}
+    VipName: Mynke
+    Title: Run'A Store Artist
+  - VipImage: {fileID: 21300000, guid: ace35c19423a29244aee5e5516d83508, type: 3}
+    VipName: Steph Smout
+    Title: Run'A Store Developer
+  - VipImage: {fileID: 21300000, guid: 71c0d548419a88e4085dee8010222f0e, type: 3}
+    VipName: Kasper van der Horst
+    Title: Run'A Store Developer
+  - VipImage: {fileID: 21300000, guid: a6036efbfde6e684981397686de5e93c, type: 3}
+    VipName: Old Wise Furry
+    Title: Mage

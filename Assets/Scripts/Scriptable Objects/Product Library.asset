@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0971b8577273024aa081d3618ed17e1, type: 3}
+  m_Name: Product Library
+  m_EditorClassIdentifier: 
+  products:
+  - productName: Apple
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: ceeb8712bbb4cf841b46d42ac665d564,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 1c1e1f5b42284bd47a83c2e91cd06189, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Banana
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: 7ae4b58e9863b8c448b302268e60a135,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 711f47350a8bbb143b4a15ddab7b24e2, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Grapes
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: 835754edd4f0dfe40af6f64eddc6a250,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 9a8314563a9cb9e4a827bffb867f3de3, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Pear
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: e85d202882fd8b744bf03bf588ee2196,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 83bf8fc8a5ffc3f4b8bd6cef5b983adc, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Tomatoes
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: da3765e12da7e954f9b532b673bbc915,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 40859246f73418540bd8da07adddeb84, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Aprika
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: 2add3cd82b62be342b4a6831cc84e494,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: ab35ea0312922b9488393ec42ab81d8e, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Carrot
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: 39557bb2ea0442d468ebbcce7ec4bc39,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 848e733c78b942640b73e5a8ba87ad37, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Eggplant
+    storageType: 1
+    itemBuyPrice: 30
+    itemModel: {fileID: 919132149155446097, guid: 6d42e27fabd19db47b8c5d1b2e4451ca,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: a7ab2af31884ef846ac0b4ac18417b61, type: 3}
+    sortIcon: {fileID: 21300000, guid: 7affc71bf30b8bc49b7837b23bde6016, type: 3}
+  - productName: Baguette
+    storageType: 0
+    itemBuyPrice: 10
+    itemModel: {fileID: 919132149155446097, guid: 5e687ba8f4b8b9a44af24ec43ea288dd,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 0f506c53d6157a24daa1b823b83e388b, type: 3}
+    sortIcon: {fileID: 21300000, guid: feba3fe9449c2974d8851e465576ce13, type: 3}
+  - productName: Bread
+    storageType: 0
+    itemBuyPrice: 10
+    itemModel: {fileID: 919132149155446097, guid: f054557ffaabf834281e1c9504b34136,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 0f506c53d6157a24daa1b823b83e388b, type: 3}
+    sortIcon: {fileID: 21300000, guid: feba3fe9449c2974d8851e465576ce13, type: 3}
+  - productName: IceBox
+    storageType: 5
+    itemBuyPrice: 35
+    itemModel: {fileID: 919132149155446097, guid: 690aa0ecfe0f327469786299e15d3060,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 8531bc4443abda649b4047e091cc5802, type: 3}
+    sortIcon: {fileID: 21300000, guid: 3f1fddbaf160a034c92a166aa6a39d72, type: 3}
+  - productName: IceJar
+    storageType: 5
+    itemBuyPrice: 35
+    itemModel: {fileID: 919132149155446097, guid: fc8f69bdccddc1e4babcfb75d5216dfa,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 8be26d49b4c7ff744b25807539551cd0, type: 3}
+    sortIcon: {fileID: 21300000, guid: 3f1fddbaf160a034c92a166aa6a39d72, type: 3}
+  - productName: Milk
+    storageType: 4
+    itemBuyPrice: 20
+    itemModel: {fileID: 919132149155446097, guid: 2f14e16f248aaa84995b8b90bd7ed5c6,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 4a50b80c8500dc84398657b2191e1617, type: 3}
+    sortIcon: {fileID: 21300000, guid: 2348e068f635cc74d8a5b332efaafe24, type: 3}
+  - productName: Cheese
+    storageType: 5
+    itemBuyPrice: 35
+    itemModel: {fileID: 919132149155446097, guid: 9928119ca8e3e364abc56e9a1a300a76,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 0946c71ffc3313b4eb420ff3f542d4e7, type: 3}
+    sortIcon: {fileID: 21300000, guid: 3f1fddbaf160a034c92a166aa6a39d72, type: 3}
+  - productName: StraightGlizzy
+    storageType: 3
+    itemBuyPrice: 55
+    itemModel: {fileID: 919132149155446097, guid: 8a66511b4c88e3240a0edadf93951670,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 39913a2a7144ca64f8cf6bc40cea3f63, type: 3}
+    sortIcon: {fileID: 21300000, guid: 8e5764983cf80d449aa22bacbed9b36e, type: 3}
+  - productName: RoundGlizzy
+    storageType: 3
+    itemBuyPrice: 55
+    itemModel: {fileID: 919132149155446097, guid: eadc42ee36d05ce47a1813731168972c,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: f87a1dfe0336cf948985f66da4bdbc9a, type: 3}
+    sortIcon: {fileID: 21300000, guid: 8e5764983cf80d449aa22bacbed9b36e, type: 3}
+  - productName: Steak
+    storageType: 3
+    itemBuyPrice: 55
+    itemModel: {fileID: 919132149155446097, guid: 3ed1c6ba15490a545b7b70e5f6157138,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 03bb3b81982fb7f49a4480142093b2c2, type: 3}
+    sortIcon: {fileID: 21300000, guid: 8e5764983cf80d449aa22bacbed9b36e, type: 3}
+  - productName: Fish
+    storageType: 3
+    itemBuyPrice: 55
+    itemModel: {fileID: 919132149155446097, guid: f382f8f4bf90c0f4a84ea8affb0b1bf2,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: f6e8e213a59b0b242894f8c45b8fc3ac, type: 3}
+    sortIcon: {fileID: 21300000, guid: 8e5764983cf80d449aa22bacbed9b36e, type: 3}
+  - productName: Pizza
+    storageType: 4
+    itemBuyPrice: 20
+    itemModel: {fileID: 919132149155446097, guid: b0ccb9b528fcfc34ab320ecd7801c404,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 9d14d2a686640c74b995311de1b85a61, type: 3}
+    sortIcon: {fileID: 21300000, guid: 2348e068f635cc74d8a5b332efaafe24, type: 3}
+  - productName: Fries
+    storageType: 4
+    itemBuyPrice: 20
+    itemModel: {fileID: 919132149155446097, guid: 82d0b23d475ca224081cde040f243f7e,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 5356f0e6e20ab4a45b3275dcb6ff5769, type: 3}
+    sortIcon: {fileID: 21300000, guid: 2348e068f635cc74d8a5b332efaafe24, type: 3}
+  - productName: Candy
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: 3ed1c6ba15490a545b7b70e5f6157138,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 19d7992ec341e494cbd3e59e239acf43, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: Crisps
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: cb7c0c0cf1098424e99df5732869c8e8,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 6b219c4fce6fee14b8d6cf4c4c5597fb, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: Cola
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: ec09c89e81a86db40939e42b286a0e7f,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 66c66d63270cfc64c8d028b543487783, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: Chocolate
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: ec09c89e81a86db40939e42b286a0e7f,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 05c84005b26685f4ba9e9802f68af9a9, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: Detergent1
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: ec09c89e81a86db40939e42b286a0e7f,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: c5d3e9da415d2b146ab395170cea646b, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: Detergent2
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: ec09c89e81a86db40939e42b286a0e7f,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: 106f7e0b214fdda4bb6730fbcde2a6cd, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: Detergent3
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: ec09c89e81a86db40939e42b286a0e7f,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: fe8a8aaef680e6c4085dfa641f086472, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
+  - productName: ToiletRoll
+    storageType: 2
+    itemBuyPrice: 15
+    itemModel: {fileID: 919132149155446097, guid: 9e74b17f80898fc439e66be97a562970,
+      type: 3}
+    itemIcon: {fileID: 21300000, guid: c600e863a6b36a74f9e2c8839a282d01, type: 3}
+    sortIcon: {fileID: 21300000, guid: 85b22a67c46d53d43b1830ba9ceef1f6, type: 3}
